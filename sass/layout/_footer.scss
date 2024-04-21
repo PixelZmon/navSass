@@ -1,0 +1,12 @@
+@import '../vendors/bootstrap';
+@import '../base/typography';
+@import '../abstracts/variables';
+@import '../components/buttons';
+
+.footer {
+    color: $white-txt;
+    background-image: linear-gradient(to bottom, $footer-igradient, $footer-fgradient);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: $basic-padding;
+}
